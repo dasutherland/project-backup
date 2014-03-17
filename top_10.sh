@@ -1,1 +1,4 @@
-grep Question Analytics_Fall2013.csv | head 
+for filename in *.csv
+do
+  grep Question $filename | head 
+done
