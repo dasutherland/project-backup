@@ -1,4 +1,1 @@
-for filename in *.csv
-do
-  grep Question $filename | head 
-done
+grep Question $1 | head 
